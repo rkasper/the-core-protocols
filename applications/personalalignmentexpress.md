@@ -27,7 +27,7 @@ Note: To successfully complete this task, you must be willing to be vulnerable. 
         
     (Note: In choosing a virtue, imagine that you will soon master it. Pretend that wanting it will summon it. For example, if you choose passion, passion will be ever present to you. You will master passion. You will know all about it. You will attain the perfect amount of passion for your own life. You will be a model and a teacher for others when it comes to passion. You might compose the standard protocols and practices for passion, etc., etc. You will enjoy the fruits of a passionate life.)
 
-    Optionally, to go deeper:
+2. Optionally, to go deeper:
 
     c. Shift VIRTUE to WANT (i.e., “VIRTUE X is now what I WANT”).
     
@@ -35,22 +35,22 @@ Note: To successfully complete this task, you must be willing to be vulnerable. 
     
     e. Iterate 1a-1d until: \[1\] you find the virtue that would dissolve the final block you are aware of; or \[2\] you don’t feel like iterating anymore.
 
-2. My ALIGNMENT: I want ________________________.
+3. My ALIGNMENT: I want ________________________.
 
     Write the VIRTUE as your alignment.
 
-3. My SIGNAL:
+4. My SIGNAL:
 
     What I will say and/or do, to signal that a) I am about to practice my alignment, or b) I am about to report on my Alignment work, or c) I am celebrating my Alignment:
 
     Default: “I am practicing my Alignment: virtue-name.”
 
-4. The RESPONSE I want from others when I so signal:
+5. The RESPONSE I want from others when I so signal:
 
     What I ask my teammates to say and/or do in response when I signal; how they can support me in my Alignment work, my new behavior. 
     Default: “When I say signal, will you respond by expressing support, and, if I want it, by making a little time for me in the moment?”
 
-5. Some observable EVIDENCE that will exist in the world after I have attained – or as I practice – my Alignment.
+6. Some observable EVIDENCE that will exist in the world after I have attained – or as I practice – my Alignment.
 
     Changes or accomplishments other people will be able to observe. Evidence, as in a court of law.
 
