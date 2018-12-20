@@ -3,8 +3,8 @@ Use Decider anytime you want to move a group immediately and unanimously towards
 
 ## Steps
 1. Proposer says “I propose \[concise,actionable behavior\].”
-2. Proposer says“1-2-3.”
-3. Voters,using either Yes(thumbs up), No (thumbs down),or Support-it (flat hand),vote simultaneously with other voters.
+2. Proposer says “1-2-3.”
+3. Voters,using either Yes (thumbs up), No (thumbs down), or Support-it (flat hand),vote simultaneously with other voters.
 4. Voters who absolutely cannot get in on the proposal declare themselves by saying “I am an absolute no. I won’t get in.” If this occurs, the proposal is withdrawn.
 5. Proposer counts the votes.
 6. Proposer withdraws the proposal if a combination of outliers (No votes) and Support-it votes is too great or if proposer expects not to successfully conclude Resolution (below). You can approximate “too great” by using the following heuristics:
