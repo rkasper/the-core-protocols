@@ -29,11 +29,11 @@ Note: To successfully complete this task, you must be willing to be vulnerable. 
 
 2. Optionally, to go deeper:
 
-    c. Shift VIRTUE to WANT (i.e., “VIRTUE X is now what I WANT”).
+    a. Shift VIRTUE to WANT (i.e., “VIRTUE X is now what I WANT”).
     
-    d. Go back to step 1a with that new WANT.
+    b. Go back to step 1a with that new WANT.
     
-    e. Iterate 1a-1d until: \[1\] you find the virtue that would dissolve the final block you are aware of; or \[2\] you don’t feel like iterating anymore.
+    c. Iterate 1a-1d until: \[1\] you find the virtue that would dissolve the final block you are aware of; or \[2\] you don’t feel like iterating anymore.
 
 3. My ALIGNMENT: I want ________________________.
 
