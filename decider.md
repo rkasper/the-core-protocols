@@ -1,7 +1,7 @@
-#Decider
+# Decider
 Use Decider anytime you want to move a group immediately and unanimously towards results.
 
-##Steps
+## Steps
 1. Proposer says “I propose \[concise,actionable behavior\].”
 2. Proposer says“1-2-3.”
 3. Voters,using either Yes(thumbs up), No (thumbs down),or Support-it (flat hand),vote simultaneously with other voters.
@@ -14,7 +14,7 @@ Use Decider anytime you want to move a group immediately and unanimously towards
 8. Proposer declares the proposal carried if all outliers change their votes to Yes or Support-it.
 9. The team is now committed to the proposed result.
 
-##Commitments
+## Commitments
 * Propose no more than one item per proposal.
 * Remain present until the Decider protocol is complete; always remain aware of how your behavior either moves the group forward or slows it down.
 * Give your full attention to a proposal over and above all other activity.
@@ -32,7 +32,7 @@ Use Decider anytime you want to move a group immediately and unanimously towards
 * Do not look at how others are voting to choose your own vote.
 * Avoid using Decider in large groups. Break up into small subgroups to make decisions, and use the large group to report status.
 
-##Notes
+## Notes
 * Vote No only when you really believe the contribution to forward momentum you will make to the group after slowing or stopping it in the current vote will greatly outweigh the (usually considerable) costs you are adding by voting No.
 * If you are unsure or confused by a proposal, support it and seek clarification offline after the proposal is resolved. If you have an alternate proposal after receiving more information, you can have faith that your team will support the best idea. (See “The Core Commitments”)
 * Voting No to make minor improvements to an otherwise acceptable proposal slows momentum and should be avoided. Instead, offer an additional proposal after the current one passes or, better yet, involve yourself in the implementation to make sure your idea gets in.

@@ -1,9 +1,9 @@
-#The Core Protocols V. 3.03
+# The Core Protocols V. 3.03
 The following Core Protocols are made up of both commitments and protocols.
 
-**[The Core Commitments](corecommitments.md)**
+## [The Core Commitments](corecommitments.md)
 
-**The Core Protocols**
+## The Core Protocols
 * [Pass](pass.md)
 * [Check In](checkin.md)
 * [Check Out](checkout.md)

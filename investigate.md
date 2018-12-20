@@ -1,9 +1,9 @@
-#Investigate
+# Investigate
 Investigate allows you to learn about a phenomenon that occurs in someone else. Use it when an idea or behavior someone is presenting seems poor, confusing, or simply interesting.
 
-##Steps
+## Steps
 1. Act as if you were a detached but fascinated inquirer, asking questions until your curiosity is satisfied or you no longer want to ask questions.
-##Commitments
+## Commitments
 * Ask well-formed questions.
 * Ask only questions that will increase your understanding.
 * Ask questions only if the subject is engaged and appears ready to answer more.
@@ -11,7 +11,7 @@ Investigate allows you to learn about a phenomenon that occurs in someone else. 
 * Do not ask leading questions where you think you know how he or she will answer.
 * If you cannot remain a detached, curious investigator with no agenda, stop using the protocol until you can come back to it and keep these commitments.
 
-##Notes
+## Notes
 * Do not theorize about the subject or provide any sort of diagnosis.
 * Consider using the following forms for your questions: o What about X makes you Y Z?
     * Would you explain a specific example?

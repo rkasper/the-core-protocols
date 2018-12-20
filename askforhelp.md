@@ -1,12 +1,12 @@
-#Ask For Help
+# Ask For Help
 The Ask For Help protocol allows you to efficiently make use of the skills and knowledge of others. Ask For Help is the act that catalyzes connection and shared vision. Use it continuously, before and during the pursuit of any result.
 
-##Steps
+## Steps
 1. Asker inquires of another, “\[Helper’s name\], will you X?”
 2. Asker expresses any specifics or restrictions of the request.
 3. Helper responds by saying “Yes” or “No” or by offering an alternative form of help.
 
-##Commitments
+## Commitments
 * Always invoke the Ask For Help Protocol with the phrase “Will you . . .
 * Have a clear understanding of what you want from the Helper or if you do not have a clear understanding of what help you want, signal this by saying “I’m not sure what I need help with,
 but will you help me?”
@@ -20,7 +20,7 @@ to say “No.”
 * Request more information if you are unclear about the specifics of the help request.
 * Do not apologize for asking for help.
 
-##Notes
+## Notes
 * Asking for help is a low-cost undertaking. The worst possible outcome is a “No,” which leaves you no further ahead or behind than when you asked. In the best possible outcome, you reduce the amount of time required to achieve a task and/or learn.
 * Helpers should say “No” if they are not sure if they want to help. They should say nothing else after turning down a request for help.
 * You cannot “over-ask” a given person for help unless he or she has asked you to respect a particular limit.
