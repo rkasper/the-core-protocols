@@ -5,7 +5,7 @@ Use Intention Check to clarify the purpose of your own or another’s behavior. 
 1. Ask “What is your/my intention with X?” where X equals some type of actual or pending behavior to the person whose intention you want to know.
 2. If it would be helpful, ask “What response or behavior did you want from whom as a result of X?”
 
-##C ommitments
+## Commitments
 * Be aware of your own intention before checking the intention of another.
 * Investigate sufficiently to uncover the intention of the person or his actions.
 * Make sure you have the intention to resolve any possible conflict peacefully before intention
