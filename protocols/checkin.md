@@ -2,8 +2,8 @@
 Use Check In to begin meetings or anytime an individual or group Check In would add more value to the current team interactions.
 
 ## Steps
-1. Speaker says “I feel [one or more of MAD, SAD, GLAD, AFRAID].” Speaker may provide a brief explanation. Or if others have already checked in, the speaker may say “I pass.” (See the Pass protocol.)
-2. Speaker says “I’m in.” This signifies that Speaker intends to behave according to the Core Commitments.
+1. Speaker says “I feel [one or more of MAD, SAD, GLAD, AFRAID].” Speaker may provide a brief explanation. Or if others have already checked in, the speaker may say “I pass.” (See the [Pass](pass.md) protocol.)
+2. Speaker says “I’m in.” This signifies that Speaker intends to behave according to the [Core Commitments](../corecommitments.md).
 3. Listeners respond, “Welcome.”
 
 ## Commitments

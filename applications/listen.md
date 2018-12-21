@@ -14,7 +14,7 @@ Person A and Person B sit in 2 chairs. (knees pointing toward each other) Option
 7. The positions keep switching until both are done saying what they want to say.
 
 ## Commitments
-* If you can’t stay in protocol, checkout.
+* If you can’t stay in protocol, [checkout](../protocols/checkout.md).
 * If you don’t understand something that is said to you when you are the listener, you may ask a question.
 * You may not argue, correct, make statements, or do anything else except ask a question (with the intention of understanding what you are hearing) when you are the listener.
 

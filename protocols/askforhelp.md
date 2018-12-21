@@ -24,6 +24,6 @@ to say “No.”
 * Asking for help is a low-cost undertaking. The worst possible outcome is a “No,” which leaves you no further ahead or behind than when you asked. In the best possible outcome, you reduce the amount of time required to achieve a task and/or learn.
 * Helpers should say “No” if they are not sure if they want to help. They should say nothing else after turning down a request for help.
 * You cannot “over-ask” a given person for help unless he or she has asked you to respect a particular limit.
-* If you don’t understand the value of what is offered, or feel that it wouldn’t be useful, or believe yourself to have considered and rejected the idea offered previously, assume a curious stance instead of executing a knee-jerk “But . . .” rejection. (See the Investigate protocol.)
+* If you don’t understand the value of what is offered, or feel that it wouldn’t be useful, or believe yourself to have considered and rejected the idea offered previously, assume a curious stance instead of executing a knee-jerk “But . . .” rejection. (See the [Investigate](investigate.md) protocol.)
 * Asking in time of trouble means you waited too long to ask for help. Ask for help when you are doing well.
-* Simply connecting with someone, even if he or she knows nothing of the subject you need help on can help you find answers within yourself, especially if you ask that person to Investigate you.
+* Simply connecting with someone, even if he or she knows nothing of the subject you need help on can help you find answers within yourself, especially if you ask that person to [Investigate](investigate.md) you.

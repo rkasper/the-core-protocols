@@ -4,14 +4,14 @@
 Use when one or more people meet to accomplish something.
 
 ## Steps
-1. Check In.
+1. [Check In](../protocols/checkin.md).
 2. State What You Want.
     State, in a succinct way, what you want to get from this meeting.
 
     Examples:
     * “I want to know what our message is for this version.”
     * “I want ideas for how to improve morale on this team.”
-    * “I want to Perfection Game how that last customer meeting went.”
+    * “I want to [Perfection Game](../protocols/perfectiongame.md) how that last customer meeting went.”
     * If you want what someone else wants in the meeting, you may state that as your Meeting Alignment. Example: “I want the same thing that Joe wants.”
 
 3. Alignment Check.
@@ -20,7 +20,7 @@ Use when one or more people meet to accomplish something.
     
     1. State a new Want.
     2. If you have agreed to help someone get what they want, then you would stay until they have gotten their want.
-    3. Check Out
+    3. [Check Out](../protocols/checkout.md)
     
     Examples:
     1. “Alignment Check”
@@ -40,12 +40,12 @@ Use when one or more people meet to accomplish something.
     
     At that point, proceed to get the new Want until you are at a 10.
 
-5. Check Out.
+5. [Check Out](../protocols/checkout.md).
 
     After getting what you want out of the meeting, you may do one of the following:
     * State a new Want.
     * If you have agreed to help someone get what they want, then you would stay until they have gotten their want.
-    * Check Out
+    * [Check Out](../protocols/checkout.md)
 
 ## Commitments
 * To have a measurable, desired personal outcome for the meeting.
@@ -60,11 +60,11 @@ Use when one or more people meet to accomplish something.
 ## Notes
 * State any meeting constraints at the beginning of the meeting.
 * Split into smaller groups if there are more than 8 participants in a meeting.
-* Use Decider to make decisions efficiently.
-* Ask for Help to get what you want.
+* Use [Decider](../protocols/decider.md) to make decisions efficiently.
+* [Ask for Help](../protocols/askforhelp.md) to get what you want.
 
     Example: “Dave, will you help me after this meeting by going over this with me?”
 
 * Take explicit action to pursue what you want from the meeting if you are the lowest on an Alignment Check.
-* Do an Intention Check on why you are in the meeting, especially if you don’t know what you want.
+* Do an [Intention Check](../protocols/intentioncheck.md) on why you are in the meeting, especially if you don’t know what you want.
 * Limit discussions when results do not come quickly. If needed, simply make a presentation and ask for ideas, perfecting, and 1-1 discussions once the meeting is over.

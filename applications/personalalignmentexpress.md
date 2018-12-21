@@ -1,10 +1,10 @@
 # Personal Alignment Express
 
-Like the Personal Alignment protocol, Personal Alignment Express helps you penetrate deeply into your desires and find what’s blocking you from getting what you want. Use it to discover, articulate, and achieve what you want. The quality of your alignment will be equal to the quality of your results.
+Like the [Personal Alignment](../protocols/personalalignment.md) protocol, Personal Alignment Express helps you penetrate deeply into your desires and find what’s blocking you from getting what you want. Use it to discover, articulate, and achieve what you want. The quality of your alignment will be equal to the quality of your results.
 
 Total time to complete this is about 1 hour, 30 minutes.
 
-Note: To successfully complete this task, you must be willing to be vulnerable. The more vulnerable you are, the greater your results will be. If you prefer not to be vulnerable, or don’t care to do this work for any reason, Pass or Checkout (see Core Protocols) and quietly leave or do something else. Also note that defaults are provided to save time in most steps.
+Note: To successfully complete this task, you must be willing to be vulnerable. The more vulnerable you are, the greater your results will be. If you prefer not to be vulnerable, or don’t care to do this work for any reason, [Pass](../protocols/pass.md) or [Checkout](../protocols/checkout.md) (see [Core Protocols](../README.md) and quietly leave or do something else. Also note that defaults are provided to save time in most steps.
 
 ## Steps
 ### Part One
@@ -59,6 +59,6 @@ Note: To successfully complete this task, you must be willing to be vulnerable. 
 ### Part Two
 (Pairs, or triples: do steps 7-8: 60 minutes)
 
-7. Pair up or triple up with teammates, preferably those whom you don’t know very well, but would like to know better. Now spend an hour Investigating (See Core Protocols) each other’s wants, blocks and alignment. If you like, spend the time trading off in ten or fifteen minute chunks. Don’t be afraid to change your alignment. You can also break off and join others, staying in Investigate-mode, if time remains and it seems right. Be vulnerable, be curious.
+7. Pair up or triple up with teammates, preferably those whom you don’t know very well, but would like to know better. Now spend an hour [Investigating](../protocols/investigate.md) (See [Core Protocols](../README.md)) each other’s wants, blocks and alignment. If you like, spend the time trading off in ten or fifteen minute chunks. Don’t be afraid to change your alignment. You can also break off and join others, staying in Investigate-mode, if time remains and it seems right. Be vulnerable, be curious.
 
 8. Decide on your final Alignment.

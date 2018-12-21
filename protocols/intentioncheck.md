@@ -8,10 +8,8 @@ Use Intention Check to clarify the purpose of your own or another’s behavior. 
 ## Commitments
 * Be aware of your own intention before checking the intention of another.
 * Investigate sufficiently to uncover the intention of the person or his actions.
-* Make sure you have the intention to resolve any possible conflict peacefully before intention
-checking someone else. If you do not have a peaceful intention, Check Out.
-* Do not be defensive when someone asks you what your intention is. If you can’t do this, Check
-Out.
+* Make sure you have the intention to resolve any possible conflict peacefully before intention checking someone else. If you do not have a peaceful intention, [Check Out](checkout.md).
+* Do not be defensive when someone asks you what your intention is. If you can’t do this, [Check Out](checkout.md).
 
 ## Notes
-* If conflict arises that seems irresolvable, Check Out and Ask For Help.
+* If conflict arises that seems irresolvable, [Check Out](checkout.md) and [Ask For Help](askforhelp.md).

@@ -3,6 +3,7 @@ Investigate allows you to learn about a phenomenon that occurs in someone else. 
 
 ## Steps
 1. Act as if you were a detached but fascinated inquirer, asking questions until your curiosity is satisfied or you no longer want to ask questions.
+
 ## Commitments
 * Ask well-formed questions.
 * Ask only questions that will increase your understanding.
@@ -24,4 +25,4 @@ Investigate allows you to learn about a phenomenon that occurs in someone else. 
     * Questions that attempt to hide an answer you believe is true. o Questions that invite stories.
     * Questions that begin with “Why."
 * Stick to your intention of gathering more information.
-* If you feel that you will explode if you can’t say what’s on your mind, you shouldn’t speak at all. Consider checking your intention or Check Out
+* If you feel that you will explode if you can’t say what’s on your mind, you shouldn’t speak at all. Consider [checking your intention](intentioncheck.md) or [Check Out](checkout.md)

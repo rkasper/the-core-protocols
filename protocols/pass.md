@@ -13,6 +13,6 @@ The Pass protocol is how you decline to participate in something. Use it anytime
 * Do not judge, shame, hassle, interrogate or punish anyone who passes.
 
 ## Notes
-* In general, you will not be in good standing with your Core Commitments if you pass most of the time.
-* You can pass on any activity; however, if you have adopted the Core Commitments, you cannot pass on a Decider vote and you must say “I’m in” when checking in.
+* In general, you will not be in good standing with your [Core Commitments](../corecommitments.md) if you pass most of the time.
+* You can pass on any activity; however, if you have adopted the [Core Commitments](../corecommitments.md), you cannot pass on a [Decider](decider.md) vote and you must say “I’m in” when [checking in](checkin.md).
 * You can pass even though you have already started something.
