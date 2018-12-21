@@ -41,7 +41,7 @@ Note: To successfully complete this task, you must be willing to be vulnerable. 
 
 4. My SIGNAL:
 
-    What I will say and/or do, to signal that a) I am about to practice my alignment, or b) I am about to report on my Alignment work, or c) I am celebrating my Alignment:
+    What I will say and/or do, to signal that a) I am about to practice my alignment, or b) I am about to report on my Alignment work, or c) I am celebrating my [Alignment](../protocols/personalalignment.md):
 
     Default: “I am practicing my Alignment: virtue-name.”
 
@@ -54,11 +54,11 @@ Note: To successfully complete this task, you must be willing to be vulnerable. 
 
     Changes or accomplishments other people will be able to observe. Evidence, as in a court of law.
 
-    Default: “I will be able to show a report card I get from (named people) every (interval) on my progress with respect to Alignment.”
+    Default: “I will be able to show a report card I get from (named people) every (interval) on my progress with respect to [Alignment](../protocols/personalalignment.md).”
 
 ### Part Two
 (Pairs, or triples: do steps 7-8: 60 minutes)
 
 7. Pair up or triple up with teammates, preferably those whom you don’t know very well, but would like to know better. Now spend an hour [Investigating](../protocols/investigate.md) (See [Core Protocols](../README.md)) each other’s wants, blocks and alignment. If you like, spend the time trading off in ten or fifteen minute chunks. Don’t be afraid to change your alignment. You can also break off and join others, staying in Investigate-mode, if time remains and it seems right. Be vulnerable, be curious.
 
-8. Decide on your final Alignment.
+8. Decide on your final [Alignment](../protocols/personalalignment.md).

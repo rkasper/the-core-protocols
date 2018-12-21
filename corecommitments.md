@@ -22,7 +22,7 @@
     2. When it is more important that I engage elsewhere.
 7. I will do now what must be done eventually and can effectively be done now.
 8. I will seek to move forward toward a particular goal, by biasing my behavior toward action.
-9. I will use the Core Protocols (or better) when applicable.
-    1. I will offer and accept timely and proper use of the Protocol Check protocol without prejudice.
+9. I will use the [Core Protocols](README.md) (or better) when applicable.
+    1. I will offer and accept timely and proper use of the [Protocol Check](protocols/protocolcheck.md) protocol without prejudice.
 10. I will neither harm — nor tolerate the harming of — anyone for his or her fidelity to these commitments.
 11. I will never do anything dumb on purpose.
