@@ -10,7 +10,7 @@ The Pass protocol is how you decline to participate in something. Use it anytime
 * Pass on something as soon as you are aware you are going to pass.
 * Respect the right of others to pass without explanation.
 * Support those who pass by not discussing them or their pass.
-* Do not judge, shame, hassle, interrogate or punish anyone who passes.
+* Do not judge, shame, hassle, interrogate, or punish anyone who passes.
 
 ## Notes
 * In general, you will not be in good standing with your [Core Commitments](../corecommitments.md) if you pass most of the time.

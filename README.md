@@ -7,7 +7,7 @@ The following Core Protocols are made up of both commitments and protocols.
 * [Pass](protocols/pass.md)
 * [Check In](protocols/checkin.md)
 * [Check Out](protocols/checkout.md)
-* [Ask For Help](protocols/askforhelp.md)
+* [Ask for Help](protocols/askforhelp.md)
 * [Protocol Check](protocols/protocolcheck.md)
 * [Intention Check](protocols/intentioncheck.md)
 * [Decider](protocols/decider.md)
