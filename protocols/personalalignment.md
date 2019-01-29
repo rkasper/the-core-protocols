@@ -18,7 +18,7 @@ The Personal Alignment protocol helps you penetrate deeply into your desires and
 * Identify blocks that, if solved, would radically increase your effectiveness in life, work, and play.
 * Choose a virtue that is about you and preferably one word long. For example: integrity, passion,
 self-care, peace, fun.
-* Ask for help from people who know you and/or know the alignments.
+* [Ask for help](askforhelp.md) from people who know you and/or know the alignments.
 * Identify evidence that is measurable by an objective third party.
 
 ## Notes
