@@ -14,7 +14,8 @@ The Investigate protocol allows you to learn about a phenomenon that occurs in s
 
 ## Notes
 * Do not theorize about the subject or provide any sort of diagnosis.
-* Consider using the following forms for your questions: o What about X makes you Y, Z?
+* Consider using the following forms for your questions:
+    * What about X makes you Y, Z?
     * Would you explain a specific example?
     * How does X go when it happens?
     * What is the one thing you want most from solving X?
