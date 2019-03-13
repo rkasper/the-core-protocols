@@ -58,6 +58,7 @@ h1 {
     font-size: 40px !important;
     line-height: 45px !important;
 }
+h2 a,
 h1 a:visited,
 h1 a:active,
 h1 a {
@@ -65,6 +66,7 @@ h1 a {
     line-height: 40px;
     color: #212121;
 }
+h2 a:hover,
 h1 a:focus,
 h1 a:hover {
   color: #f5ab36;
