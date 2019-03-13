@@ -82,3 +82,23 @@ h2:after {
     line-height: 0;
     margin-top: 3px;
 }
+ul {
+  padding-left: 0;
+}
+ul li {
+  position: relative;
+  padding: 5px 0 5px 20px;
+  list-style: none;
+}
+ul li:before {
+  content: url('https://kasperowski.com/wp-content/uploads/2017/09/classes-subitem-before.png');
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+ul li a {
+  color: #939393;
+}
+ul li a:hover {
+  color: #f5ab36;
+}
