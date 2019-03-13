@@ -9,6 +9,7 @@ body {
   background-attachment: fixed;
   {% endif %}
 }
+.footer,
 p {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -61,6 +62,7 @@ hr.small {
   src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0b.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
+.footer a,
 a {
   text-decoration: none;
   color: #212121;
@@ -78,6 +80,7 @@ h1 a {
     line-height: 40px;
     color: #212121;
 }
+.footer a:hover,
 a:hover,
 h2 a:hover,
 h1 a:focus,
@@ -97,6 +100,12 @@ h2:after {
 }
 ul {
   padding-left: 15px;
+}
+ol li {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  color: #939393;
 }
 ul li {
   position: relative;
