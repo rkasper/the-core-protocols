@@ -137,3 +137,9 @@ ul li a {
 ul li a:hover {
   color: #f5ab36;
 }
+ol li ol li {
+  list-style-type: lower-alpha;
+}
+ol li ol li ol li {
+  list-style-type: lower-roman;
+}
