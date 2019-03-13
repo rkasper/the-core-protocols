@@ -90,7 +90,7 @@ h2:after {
     margin-top: 3px;
 }
 ul {
-  padding-left: 0;
+  padding-left: 15px;
 }
 ul li {
   position: relative;
@@ -101,7 +101,7 @@ ul li:before {
   content: url('https://kasperowski.com/wp-content/uploads/2017/09/classes-subitem-before.png');
   position: absolute;
   left: 0;
-  top: 0;
+  top: 5px;
 }
 ul li a {
   font-family: 'Open Sans', sans-serif;
