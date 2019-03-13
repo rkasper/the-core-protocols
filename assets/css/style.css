@@ -16,7 +16,7 @@ p {
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Gochi Hand', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
-  color: #ff0000
+  color: #0abaea;
 }
 a {
   color: {{ site.link-col }};
@@ -52,4 +52,28 @@ hr.small {
 }
 a {
   text-decoration: none;
+}
+h1 {
+    color: #0abaea!important;
+    font-size: 40px !important;
+    line-height: 45px !important;
+}
+h1 a {
+    font-size: 32px;
+    line-height: 40px;
+    color: #212121;
+}
+h1 a:hover {
+  color: #f5ab36;
+}
+h2 {
+    font-size: 32px;
+    line-height: 40px;
+    color: #212121;
+}
+h2:after {
+    content: url('https://kasperowski.com//wp-content/uploads/2017/05/section-title-separator.png');
+    display: block;
+    line-height: 0;
+    margin-top: 3px;
 }
