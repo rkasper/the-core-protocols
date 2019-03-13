@@ -58,11 +58,14 @@ h1 {
     font-size: 40px !important;
     line-height: 45px !important;
 }
+h1 a:visited,
+h1 a:active,
 h1 a {
     font-size: 32px;
     line-height: 40px;
     color: #212121;
 }
+h1 a:focus,
 h1 a:hover {
   color: #f5ab36;
 }
