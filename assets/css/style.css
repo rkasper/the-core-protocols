@@ -102,6 +102,10 @@ ul li {
   position: relative;
   padding: 5px 0 5px 20px;
   list-style: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  color: #939393;
 }
 ul li:before {
   content: url('https://kasperowski.com/wp-content/uploads/2017/09/classes-subitem-before.png');
