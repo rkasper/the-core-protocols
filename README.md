@@ -15,3 +15,5 @@ The following Core Protocols are made up of both commitments and protocols.
 * [Perfection Game](protocols/perfectiongame.md)
 * [Personal Alignment](protocols/personalalignment.md)
 * [Investigate](protocols/investigate.md)
+
+## [License](LICENSE.md)
