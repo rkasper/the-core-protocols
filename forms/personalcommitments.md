@@ -4,7 +4,7 @@ Please initial each commitment and sign at the bottom indicating you
 agree to the following:
 
 1. **Safety.** I will take care of myself, my privacy and my safety during
-this course. I know that I can pass on anything and check out at
+this course. I know that I can [pass](../protocols/pass.md) on anything and [check out](../protocols/checkout.md) at
 will, with no penalties attached.
 **(Initials ________)**
 
@@ -17,8 +17,8 @@ to accept the staff’s guidance to find new efficiency in my learning.
 I will refrain from providing feedback during the course.
 **(Initials ________)**
 
-3. **The Core Culture.** I have read The Core commitments and
-protocols to be used in the course. I agree to adhere to The Core
+3. **The Core Culture.** I have read [The Core Commitments](../corecommitments.md) and
+[protocols](../README.md) to be used in the course. I agree to adhere to The Core
 commitments and protocols during the course. This includes
 requiring that others on my team adhere to The Core protocols and
 commitments.
