@@ -25,4 +25,4 @@ The following Core Protocols are made up of both commitments and protocols.
 * [Personal Commitments](forms/personalcommitments.md)
 
 ## License
-* [License](LICENSE.md)
+* [License](license.md)
