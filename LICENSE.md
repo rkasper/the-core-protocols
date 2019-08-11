@@ -1,3 +1,4 @@
+# License
 The Core Protocols V. 3.1 are copyright &copy; 2018-2019 Richard Kasperowski.
 
 Version 3.1 of the Core Protocols is derived from the Core Protocols version 3.03 by Jim and Michele McCarthy. This derivation improves the readability of version 3.03.
