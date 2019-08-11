@@ -1,7 +1,8 @@
 # The Core Protocols V. 3.1
 The following Core Protocols are made up of both commitments and protocols.
 
-## [The Core Commitments](corecommitments.md)
+## The Core Commitments
+* [The Core Commitments](corecommitments.md)
 
 ## The Core Protocols
 * [Pass](protocols/pass.md)
@@ -16,4 +17,12 @@ The following Core Protocols are made up of both commitments and protocols.
 * [Personal Alignment](protocols/personalalignment.md)
 * [Investigate](protocols/investigate.md)
 
-## [License](LICENSE.md)
+## Related Protocols, Applications, and Commitments
+* [Meet](applications/meet.md)
+* [Listen](applications/listen.md)
+* [Personal Alignment Express](applications/personalalignmentexpress.md)
+* [Web of Commitment Express](applications/webofcommitmentexpress.md)
+* [Personal Commitments](forms/personalcommitments.md)
+
+## License
+* [License](LICENSE.md)
