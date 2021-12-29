@@ -26,3 +26,5 @@ The following Core Protocols are made up of both commitments and protocols.
 
 ## License
 * [License](corelicense.md)
+
+_This website is a free service provided by [Richard Kasperowski](https://kasperowski.com). I hope you enjoy it!_
