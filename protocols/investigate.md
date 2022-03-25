@@ -23,7 +23,8 @@ The Investigate protocol allows you to learn about a phenomenon that occurs in s
     * What is the most important thing you could do right now to help you with X?
 * Ineffective queries include questions that:
     * lead or reflect an agenda,
-    * attempt to hide an answer you believe is true. o invite stories, or
+    * attempt to hide an answer you believe is true,
+    * invite stories, or
     * begin with “why".
 * Stick to your intention of gathering more information.
 * If you feel that you will explode if you can’t say what’s on your mind, you shouldn’t speak at all. Consider [checking your intention](intentioncheck.md) or [checking out](checkout.md).
