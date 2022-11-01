@@ -2,7 +2,7 @@ body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 18px;
   color: #404040;
-  margin: 10% 25%;
+  margin: 2% 25%;
   position: relative;
   background-color: {{ site.page-col }};
   {% if site.page-img %}
