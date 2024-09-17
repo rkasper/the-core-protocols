@@ -25,4 +25,4 @@
 9. I will use the [Core Protocols](README.md) (or better) when applicable.
     1. I will offer and accept timely and proper use of the [Protocol Check](protocols/protocolcheck.md) protocol without prejudice.
 10. I will neither harm — nor tolerate the harming of — anyone for his or her fidelity to these commitments.
-11. I will never do anything dumb on purpose.
+11. I will never do anything detrimental on purpose.
