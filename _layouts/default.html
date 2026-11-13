@@ -5,16 +5,26 @@
 </head>
 <body>
 {% include header.html %}
-{% if page.lang == "es" %}
+{% case page.lang %}
+{% when "es" %}
   {% assign kicker = "Protocolo" %}
   {% assign sequence = site.data.nav.es.protocols %}
+  {% assign prev_label = "Anterior" %}{% assign next_label = "Siguiente" %}{% assign more_label = "Más protocolos" %}
+{% when "fr" %}
+  {% assign sequence = site.data.nav.fr.commitments | concat: site.data.nav.fr.protocols | concat: site.data.nav.fr.related %}
+  {% if page.dir == "/fr/protocoles/" %}{% assign kicker = "Protocole" %}
+  {% elsif page.dir == "/fr/applications/" %}{% assign kicker = "Aller plus loin" %}
+  {% elsif page.dir == "/fr/formulaires/" %}{% assign kicker = "Formulaire" %}
+  {% else %}{% assign kicker = "Les Protocoles Fondamentaux" %}{% endif %}
+  {% assign prev_label = "Précédent" %}{% assign next_label = "Suivant" %}{% assign more_label = "Autres protocoles" %}
 {% else %}
   {% assign sequence = site.data.nav.en.commitments | concat: site.data.nav.en.protocols | concat: site.data.nav.en.related %}
   {% if page.dir == "/protocols/" %}{% assign kicker = "Protocol" %}
   {% elsif page.dir == "/applications/" %}{% assign kicker = "Related protocol" %}
   {% elsif page.dir == "/forms/" %}{% assign kicker = "Form" %}
   {% else %}{% assign kicker = "The Core Protocols V. 3.1" %}{% endif %}
-{% endif %}
+  {% assign prev_label = "Previous" %}{% assign next_label = "Next" %}{% assign more_label = "More protocols" %}
+{% endcase %}
 <section class="page-hero">
   <div class="wrap">
     <p class="kicker">{{ kicker }}</p>
@@ -31,9 +41,9 @@
   {% assign i = forloop.index0 %}
   {% assign prev_i = i | minus: 1 %}
   {% assign next_i = i | plus: 1 %}
-  <nav class="wrap pager" aria-label="{% if page.lang == 'es' %}Más protocolos{% else %}More protocols{% endif %}">
-    {% if i > 0 %}{% assign prev = sequence[prev_i] %}<a class="pager-link prev" href="{{ prev.url | relative_url }}"><span>{% if page.lang == 'es' %}Anterior{% else %}Previous{% endif %}</span>{{ prev.title }}</a>{% else %}<span></span>{% endif %}
-    {% if next_i < sequence.size %}{% assign next = sequence[next_i] %}<a class="pager-link next" href="{{ next.url | relative_url }}"><span>{% if page.lang == 'es' %}Siguiente{% else %}Next{% endif %}</span>{{ next.title }}</a>{% endif %}
+  <nav class="wrap pager" aria-label="{{ more_label }}">
+    {% if i > 0 %}{% assign prev = sequence[prev_i] %}<a class="pager-link prev" href="{{ prev.url | relative_url }}"><span>{{ prev_label }}</span>{{ prev.title }}</a>{% else %}<span></span>{% endif %}
+    {% if next_i < sequence.size %}{% assign next = sequence[next_i] %}<a class="pager-link next" href="{{ next.url | relative_url }}"><span>{{ next_label }}</span>{{ next.title }}</a>{% endif %}
   </nav>
 {% endif %}{% endfor %}
 {% include footer.html %}

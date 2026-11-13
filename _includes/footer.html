@@ -1,15 +1,22 @@
 <footer class="footer">
   <div class="wrap footer-inner">
-    {% if page.lang == "es" %}
+    {% case page.lang %}
+    {% when "es" %}
     <p class="footer-lead">Basado en el trabajo de Jim McCarthy y Michele McCarthy</p>
     <p>Los protocolos fundamentales V. 3.1 son software libre bajo la <a href="{{ '/corelicense.html' | relative_url }}" lang="en">licencia GPL</a>.
       <a href="https://github.com/{{ site.repository }}">Código fuente en GitHub</a>{% if page.path %} · <a href="https://github.com/{{ site.repository }}/blob/master/{{ page.path }}">Edita esta página</a>{% endif %}</p>
     <p>Hecho con amor por <a href="https://kasperowski.com/">Richard Kasperowski</a></p>
+    {% when "fr" %}
+    <p class="footer-lead">Basé sur les travaux de Jim McCarthy et Michele McCarthy</p>
+    <p>Traduction française : <a href="https://github.com/adericbourg/coreprotocols-fr">Alban Dericbourg</a></p>
+    <p>Les Protocoles Fondamentaux sont des logiciels libres sous <a href="{{ '/fr/licence.html' | relative_url }}">licence GPL</a>.
+      <a href="https://github.com/{{ site.repository }}">Code source sur GitHub</a>{% if page.path %} · <a href="https://github.com/{{ site.repository }}/blob/master/{{ page.path }}">Modifier cette page</a>{% endif %}</p>
+    <p>Fait avec amour par <a href="https://kasperowski.com/">Richard Kasperowski</a></p>
     {% else %}
     <p class="footer-lead">Based on the work of Jim McCarthy and Michele McCarthy</p>
     <p>The Core Protocols V. 3.1 are free software under the <a href="{{ '/corelicense.html' | relative_url }}">GPL</a>.
       <a href="https://github.com/{{ site.repository }}">Source on GitHub</a>{% if page.path %} · <a href="https://github.com/{{ site.repository }}/blob/master/{{ page.path }}">Edit this page</a>{% endif %}</p>
     <p>Made with love by <a href="https://kasperowski.com/">Richard Kasperowski</a></p>
-    {% endif %}
+    {% endcase %}
   </div>
 </footer>

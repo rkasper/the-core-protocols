@@ -51,6 +51,7 @@ h1, h2, h3, h4 { font-family: var(--heading); color: var(--ink); line-height: 1.
 .topnav { display: flex; gap: 1.25rem; font-family: var(--heading); font-size: .95rem; }
 .topnav a { color: #fff; text-decoration: none; opacity: .9; }
 .topnav a:hover { color: var(--orange); opacity: 1; }
+.langs { display: inline-flex; gap: 1rem; padding-left: 1.25rem; border-left: 1px solid rgba(255,255,255,.3); }
 
 /* Page header band (every page but the home pages) */
 .page-hero { position: relative; background: var(--orange); color: var(--ink); padding: 3rem 0 4rem; overflow: hidden; }
@@ -151,7 +152,8 @@ h1, h2, h3, h4 { font-family: var(--heading); color: var(--ink); line-height: 1.
   .cover-sub { margin-bottom: .5rem; }
   .pager { grid-template-columns: 1fr; }
   .pager-link.next { grid-column: 1; }
-  .topnav { gap: 1rem; }
+  .topnav { gap: 1rem; flex-wrap: wrap; }
+  .langs { padding-left: 1rem; }
 }
 
 @media print {

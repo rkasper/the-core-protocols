@@ -28,6 +28,10 @@ defaults:
       path: "es"
     values:
       lang: es
+  - scope:
+      path: "fr"
+    values:
+      lang: fr
 
 exclude:
   - README.md

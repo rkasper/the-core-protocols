@@ -1,19 +1,30 @@
-{% if page.lang == "es" %}{% assign home = "/es/" %}{% else %}{% assign home = "/" %}{% endif %}
+{% case page.lang %}
+{% when "es" %}{% assign home = "/es/" %}{% assign brand = "Los protocolos fundamentales" %}
+{% when "fr" %}{% assign home = "/fr/" %}{% assign brand = "Les Protocoles Fondamentaux" %}
+{% else %}{% assign home = "/" %}{% assign brand = "The Core Protocols" %}
+{% endcase %}
 <header class="topbar">
   <div class="wrap topbar-inner">
     <a class="brand" href="{{ home | relative_url }}">
       <span class="brand-dot" aria-hidden="true"></span>
-      {% if page.lang == "es" %}Los protocolos fundamentales{% else %}The Core Protocols{% endif %}
+      {{ brand }}
     </a>
     <nav class="topnav" aria-label="Site">
-      {% if page.lang == "es" %}
+      {% case page.lang %}
+      {% when "es" %}
       <a href="{{ '/es/' | relative_url }}#protocolos">Protocolos</a>
-      <a href="{{ '/' | relative_url }}" lang="en">English</a>
+      {% when "fr" %}
+      <a href="{{ '/fr/engagements.html' | relative_url }}">Engagements</a>
+      <a href="{{ '/fr/' | relative_url }}#protocoles">Protocoles</a>
       {% else %}
       <a href="{{ '/corecommitments.html' | relative_url }}">Commitments</a>
       <a href="{{ '/' | relative_url }}#protocols">Protocols</a>
-      <a href="{{ '/es/' | relative_url }}" lang="es">Español</a>
-      {% endif %}
+      {% endcase %}
+      <span class="langs">
+        {% unless page.lang == "en" or page.lang == nil %}<a href="{{ '/' | relative_url }}" lang="en">English</a>{% endunless %}
+        {% unless page.lang == "es" %}<a href="{{ '/es/' | relative_url }}" lang="es">Español</a>{% endunless %}
+        {% unless page.lang == "fr" %}<a href="{{ '/fr/' | relative_url }}" lang="fr">Français</a>{% endunless %}
+      </span>
     </nav>
   </div>
 </header>

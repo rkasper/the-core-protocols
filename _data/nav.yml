@@ -80,3 +80,52 @@ es:
     - Alineación personal expres
     - Red de compromiso expres
     - Compromisos personales
+fr:
+  commitments:
+    - title: Les Engagements Fondamentaux
+      url: /fr/engagements.html
+      summary: Les promesses que chacun fait pour bien utiliser les protocoles.
+  protocols:
+    - title: Passer
+      url: /fr/protocoles/passer.html
+      summary: Décliner sa participation à une activité, sans avoir à se justifier.
+    - title: Entrée
+      url: /fr/protocoles/entree.html
+      summary: Commencer une réunion, ou tout autre moment, en disant ce que l’on ressent.
+    - title: Sortie
+      url: /fr/protocoles/sortie.html
+      summary: Partir quand on ne peut plus s’engager, pour que sa présence ait toujours un sens.
+    - title: Demande d’aide
+      url: /fr/protocoles/demande-aide.html
+      summary: Bénéficier efficacement des connaissances et des compétences des autres.
+    - title: Contrôle de protocole
+      url: /fr/protocoles/controle-protocole.html
+      summary: Intervenir quand un protocole est mal utilisé ou qu’un engagement n’est pas tenu.
+    - title: Contrôle d’intention
+      url: /fr/protocoles/controle-intention.html
+      summary: Clarifier ses propres motivations ou celles d’un autre.
+    - title: Décision
+      url: /fr/protocoles/decision.html
+      summary: Amener un groupe immédiatement et unanimement vers un résultat.
+    - title: Résolution
+      url: /fr/protocoles/resolution.html
+      summary: Rallier les derniers opposants à une proposition de Décision.
+    - title: Jeu de la perfection
+      url: /fr/protocoles/jeu-perfection.html
+      summary: Mettre en commun les meilleures idées pour améliorer quelque chose.
+    - title: Alignement personnel
+      url: /fr/protocoles/alignement-personnel.html
+      summary: Découvrir ce que l’on veut et ce qui nous empêche de l’obtenir.
+    - title: Enquête
+      url: /fr/protocoles/enquete.html
+      summary: Creuser un phénomène que l’on observe chez quelqu’un d’autre.
+  related:
+    - title: Alignement Personnel Express
+      url: /fr/applications/alignement-personnel-express.html
+      summary: Un parcours guidé de l’Alignement personnel.
+    - title: Toile d’Engagement Express
+      url: /fr/applications/toile-engagement-express.html
+      summary: Un rituel pour s’engager les uns envers les autres en équipe.
+    - title: Engagements personnels
+      url: /fr/formulaires/engagements-personnels.html
+      summary: Le formulaire que les participants signent au début d’une formation.
