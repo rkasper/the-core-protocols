@@ -1,0 +1,34 @@
+title: The Core Protocols
+description: The Core Protocols V. 3.1, the commitments and protocols for great teamwork, based on the work of Jim McCarthy and Michele McCarthy.
+url: https://thecoreprotocols.org
+repository: rkasper/the-core-protocols
+
+# GitHub Pages builds this site from Markdown. Each page's first "# Heading"
+# becomes its title (and the layout shows it in the page header), and links
+# between .md files become links to the built .html pages.
+plugins:
+  - jekyll-optional-front-matter
+  - jekyll-titles-from-headings
+  - jekyll-relative-links
+  - jekyll-default-layout
+
+titles_from_headings:
+  strip_title: true
+
+relative_links:
+  enabled: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+      lang: en
+  - scope:
+      path: "es"
+    values:
+      lang: es
+
+exclude:
+  - README.md
+  - .idea

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="{{ page.lang | default: 'en' }}">
+<head>
+{% include head.html %}
+</head>
+<body>
+{% include header.html %}
+{% if page.lang == "es" %}
+  {% assign kicker = "Protocolo" %}
+  {% assign sequence = site.data.nav.es.protocols %}
+{% else %}
+  {% assign sequence = site.data.nav.en.commitments | concat: site.data.nav.en.protocols | concat: site.data.nav.en.related %}
+  {% if page.dir == "/protocols/" %}{% assign kicker = "Protocol" %}
+  {% elsif page.dir == "/applications/" %}{% assign kicker = "Related protocol" %}
+  {% elsif page.dir == "/forms/" %}{% assign kicker = "Form" %}
+  {% else %}{% assign kicker = "The Core Protocols V. 3.1" %}{% endif %}
+{% endif %}
+<section class="page-hero">
+  <div class="wrap">
+    <p class="kicker">{{ kicker }}</p>
+    <h1>{{ page.title }}</h1>
+  </div>
+  <svg class="hero-trail" viewBox="0 0 1200 60" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0 40 C 200 0, 400 60, 600 30 S 1000 0, 1200 30" />
+  </svg>
+</section>
+<main class="wrap prose">
+{{ content }}
+</main>
+{% for item in sequence %}{% if item.url == page.url %}
+  {% assign i = forloop.index0 %}
+  {% assign prev_i = i | minus: 1 %}
+  {% assign next_i = i | plus: 1 %}
+  <nav class="wrap pager" aria-label="{% if page.lang == 'es' %}Más protocolos{% else %}More protocols{% endif %}">
+    {% if i > 0 %}{% assign prev = sequence[prev_i] %}<a class="pager-link prev" href="{{ prev.url | relative_url }}"><span>{% if page.lang == 'es' %}Anterior{% else %}Previous{% endif %}</span>{{ prev.title }}</a>{% else %}<span></span>{% endif %}
+    {% if next_i < sequence.size %}{% assign next = sequence[next_i] %}<a class="pager-link next" href="{{ next.url | relative_url }}"><span>{% if page.lang == 'es' %}Siguiente{% else %}Next{% endif %}</span>{{ next.title }}</a>{% endif %}
+  </nav>
+{% endif %}{% endfor %}
+{% include footer.html %}
+</body>
+</html>

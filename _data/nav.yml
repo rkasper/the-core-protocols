@@ -1,0 +1,82 @@
+# The protocols in reading order, for the home page and each page's
+# previous/next links. Edit the summaries here; the pages themselves stay pure
+# protocol text.
+en:
+  commitments:
+    - title: The Core Commitments
+      url: /corecommitments.html
+      summary: The promises everyone makes to use the protocols well.
+  protocols:
+    - title: Pass
+      url: /protocols/pass.html
+      summary: Decline to take part in something, with no explanation needed.
+    - title: Check In
+      url: /protocols/checkin.html
+      summary: Begin a meeting, or any moment, by saying how you feel.
+    - title: Check Out
+      url: /protocols/checkout.html
+      summary: Leave when you can't stay engaged, so your presence always means you're in.
+    - title: Ask for Help
+      url: /protocols/askforhelp.html
+      summary: Make efficient use of the skills and knowledge of others.
+    - title: Protocol Check
+      url: /protocols/protocolcheck.html
+      summary: Speak up when a protocol is used incorrectly or a commitment is broken.
+    - title: Intention Check
+      url: /protocols/intentioncheck.html
+      summary: Clarify the purpose of your own or another's behavior.
+    - title: Decider
+      url: /protocols/decider.html
+      summary: Move a group immediately and unanimously toward results.
+    - title: Resolution
+      url: /protocols/resolution.html
+      summary: Bring the last few dissenters in on a Decider proposal.
+    - title: Perfection Game
+      url: /protocols/perfectiongame.html
+      summary: Aggregate the best ideas and make something better.
+    - title: Personal Alignment
+      url: /protocols/personalalignment.html
+      summary: Find what you want and what's blocking you from having it.
+    - title: Investigate
+      url: /protocols/investigate.html
+      summary: Learn about a phenomenon that occurs in someone else.
+  related:
+    - title: Meet
+      url: /applications/meet.html
+      summary: Run a meeting that accomplishes something.
+    - title: Listen
+      url: /applications/listen.html
+      summary: Understand someone better.
+    - title: Personal Alignment Express
+      url: /applications/personalalignmentexpress.html
+      summary: A guided path through Personal Alignment in about 90 minutes.
+    - title: Web of Commitment Express
+      url: /applications/webofcommitmentexpress.html
+      summary: A ritual for committing to each other as a team.
+    - title: Personal Commitments
+      url: /forms/personalcommitments.html
+      summary: The form participants sign at the start of a course.
+es:
+  protocols:
+    - title: Entrar
+      url: /es/protocolos/entrar.html
+      summary: Comienza una reunión, o cualquier momento, diciendo cómo te sientes.
+    - title: Alineación personal
+      url: /es/protocolos/alineacionpersonal.html
+      summary: Descubre lo que quieres y lo que te impide tenerlo.
+  coming:
+    - Los compromisos fundamentales
+    - Pasar
+    - Salir
+    - Pedir ayuda
+    - Verificar protocolo
+    - Verificar intención
+    - Decidir
+    - Resolución
+    - Juego de perfección
+    - Investigar
+    - Reunirse
+    - Escuchar
+    - Alineación personal expres
+    - Red de compromiso expres
+    - Compromisos personales

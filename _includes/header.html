@@ -1,0 +1,19 @@
+{% if page.lang == "es" %}{% assign home = "/es/" %}{% else %}{% assign home = "/" %}{% endif %}
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="{{ home | relative_url }}">
+      <span class="brand-dot" aria-hidden="true"></span>
+      {% if page.lang == "es" %}Los protocolos fundamentales{% else %}The Core Protocols{% endif %}
+    </a>
+    <nav class="topnav" aria-label="Site">
+      {% if page.lang == "es" %}
+      <a href="{{ '/es/' | relative_url }}#protocolos">Protocolos</a>
+      <a href="{{ '/' | relative_url }}" lang="en">English</a>
+      {% else %}
+      <a href="{{ '/corecommitments.html' | relative_url }}">Commitments</a>
+      <a href="{{ '/' | relative_url }}#protocols">Protocols</a>
+      <a href="{{ '/es/' | relative_url }}" lang="es">Español</a>
+      {% endif %}
+    </nav>
+  </div>
+</header>

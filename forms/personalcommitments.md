@@ -18,7 +18,7 @@ I will refrain from providing feedback during the course.
 **(Initials ________)**
 
 3. **The Core Culture.** I have read [The Core Commitments](../corecommitments.md) and
-[protocols](../README.md) to be used in the course. I agree to adhere to The Core
+[protocols](../index.md) to be used in the course. I agree to adhere to The Core
 commitments and protocols during the course. This includes
 requiring that others on my team adhere to The Core protocols and
 commitments.

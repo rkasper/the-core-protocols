@@ -1,0 +1,168 @@
+/* The Core Protocols: styled after the book cover of
+   "The Core Protocols: A Guide to Greatness" (orange cover, cyan band,
+   bold geometric type, people joined by dotted lines). */
+
+:root {
+  --orange: #e89c17;
+  --orange-deep: #c97f06;
+  --cyan: #1bacda;
+  --cyan-deep: #0b7fa6;
+  --ink: #263238;
+  --text: #33424a;
+  --muted: #5f6f77;
+  --paper: #fffdf8;
+  --card: #ffffff;
+  --line: #eadfca;
+  --heading: "Poppins", "Helvetica Neue", Arial, sans-serif;
+  --body: "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
+  --wrap: 72rem;
+  --prose: 44rem;
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--text);
+  font-family: var(--body);
+  font-size: 1.1875rem;
+  line-height: 1.65;
+}
+
+img { max-width: 100%; height: auto; }
+
+a { color: var(--cyan-deep); text-decoration-thickness: 2px; text-underline-offset: 3px; }
+a:hover { color: var(--orange-deep); }
+a:focus-visible { outline: 3px solid var(--cyan); outline-offset: 3px; border-radius: 4px; }
+
+.wrap { width: min(var(--wrap), 100% - 2rem); margin-inline: auto; }
+
+h1, h2, h3, h4 { font-family: var(--heading); color: var(--ink); line-height: 1.2; }
+
+/* Top bar */
+.topbar { background: var(--ink); color: #fff; }
+.topbar-inner { display: flex; align-items: center; justify-content: space-between; gap: 1rem; min-height: 3.5rem; flex-wrap: wrap; padding-block: .5rem; }
+.brand { display: inline-flex; align-items: center; gap: .6rem; color: #fff; text-decoration: none; font-family: var(--heading); font-weight: 700; letter-spacing: .02em; }
+.brand:hover { color: #fff; }
+.brand-dot { width: 1.1rem; height: 1.1rem; border-radius: 50%; background: var(--cyan); box-shadow: 0 0 0 3px #fff, 0 0 0 6px var(--orange); }
+.topnav { display: flex; gap: 1.25rem; font-family: var(--heading); font-size: .95rem; }
+.topnav a { color: #fff; text-decoration: none; opacity: .9; }
+.topnav a:hover { color: var(--orange); opacity: 1; }
+
+/* Page header band (every page but the home pages) */
+.page-hero { position: relative; background: var(--orange); color: #fff; padding: 3rem 0 4rem; overflow: hidden; }
+.page-hero .wrap { max-width: var(--prose); }
+.page-hero h1 { color: #fff; margin: 0; font-size: clamp(2.2rem, 5vw, 3.4rem); font-weight: 800; letter-spacing: -.01em; }
+.kicker { margin: 0 0 .4rem; font-family: var(--heading); font-weight: 600; text-transform: uppercase; letter-spacing: .12em; font-size: .85rem; color: var(--ink); }
+.hero-trail { position: absolute; left: 0; right: 0; bottom: 6px; width: 100%; height: 40px; }
+.hero-trail path { fill: none; stroke: var(--ink); stroke-width: 3; stroke-dasharray: 2 9; stroke-linecap: round; opacity: .55; }
+
+/* Reading column */
+.prose { max-width: var(--prose); padding: 2.5rem 0 1rem; }
+.prose > :first-child { margin-top: 0; }
+.prose h2 { font-size: 1.6rem; font-weight: 700; margin: 2.5rem 0 1rem; display: flex; align-items: center; gap: .75rem; }
+.prose h2::after { content: ""; flex: 1; height: 4px; background: radial-gradient(circle, var(--orange) 2px, transparent 2.5px) 0 50% / 12px 4px repeat-x; }
+.prose h3 { font-size: 1.25rem; margin: 2rem 0 .5rem; }
+.prose p, .prose li { max-width: 40rem; }
+.prose strong { color: var(--ink); }
+.prose blockquote { margin: 1.5rem 0; padding: .25rem 1.25rem; border-left: 4px solid var(--cyan); color: var(--muted); }
+
+/* Bulleted lists: cyan dots */
+.prose ul { list-style: none; padding-left: 1.6rem; }
+.prose ul > li { position: relative; margin: .45rem 0; }
+.prose ul > li::before { content: ""; position: absolute; left: -1.25rem; top: .62em; width: .55rem; height: .55rem; border-radius: 50%; background: var(--cyan); }
+
+/* Numbered steps: orange numbered circles joined by a dotted line, like the cover */
+.prose > ol { list-style: none; counter-reset: step; padding-left: 0; margin: 1.25rem 0; position: relative; }
+.prose > ol > li { counter-increment: step; position: relative; padding: .35rem 0 1.1rem 3.6rem; margin: 0; min-height: 3.75rem; }
+.prose > ol > li::before {
+  content: counter(step);
+  position: absolute; left: 0; top: 0;
+  width: 2.5rem; height: 2.5rem; border-radius: 50%;
+  display: grid; place-items: center;
+  background: #fff; border: 3px solid var(--ink); color: var(--ink);
+  font-family: var(--heading); font-weight: 700; font-size: 1rem;
+  z-index: 1;
+}
+.prose > ol > li:nth-child(3n+2)::before { background: var(--orange); color: #fff; }
+.prose > ol > li:nth-child(3n)::before { background: var(--cyan); color: #fff; }
+.prose > ol > li:not(:last-child)::after {
+  content: ""; position: absolute; left: calc(1.25rem - 1.5px); top: 2.5rem; bottom: 0;
+  border-left: 3px dotted var(--ink); opacity: .45;
+}
+.prose ol ol { padding-left: 1.6rem; margin: .4rem 0; }
+.prose ol ol li { margin: .3rem 0; }
+.prose ol ol li::marker { font-family: var(--heading); font-weight: 600; color: var(--orange-deep); }
+
+/* Previous / next */
+.pager { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; max-width: var(--prose); margin-top: 1.5rem; margin-bottom: 3rem; }
+.pager-link { display: block; padding: 1rem 1.25rem; border: 2px solid var(--line); border-radius: 14px; background: var(--card); text-decoration: none; color: var(--ink); font-family: var(--heading); font-weight: 600; }
+.pager-link span { display: block; font-size: .8rem; font-weight: 600; text-transform: uppercase; letter-spacing: .1em; color: var(--muted); }
+.pager-link:hover { border-color: var(--orange); color: var(--ink); }
+.pager-link.next { text-align: right; grid-column: 2; }
+
+/* Home: cover-style hero */
+.home-hero { background: var(--orange); overflow: hidden; }
+.home-hero-inner { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); align-items: center; gap: 2rem; padding-top: 3rem; }
+.cover-title { margin: 0; color: #fff; font-weight: 800; text-transform: uppercase; font-size: clamp(2.6rem, 6.5vw, 5rem); line-height: .95; letter-spacing: -.01em; }
+.cover-title span { display: block; color: transparent; -webkit-text-stroke: 2px #fff; paint-order: stroke fill; }
+@supports not (-webkit-text-stroke: 2px #fff) { .cover-title span { color: #fff; } }
+.cover-sub { color: #fff; font-family: var(--heading); font-size: clamp(1.05rem, 2vw, 1.3rem); margin: 1.25rem 0 2.5rem; max-width: 26rem; }
+.home-hero-art { display: block; align-self: end; width: 100%; }
+.cover-band { background: var(--cyan); color: #fff; font-family: var(--heading); font-weight: 600; text-align: center; padding: 1rem 0; }
+
+.home-section { padding: 2.5rem 0 .5rem; }
+.home-section h2 { font-size: 1.8rem; margin: 0 0 1.25rem; display: flex; align-items: center; gap: .75rem; }
+.home-section h2::after { content: ""; flex: 1; height: 4px; background: radial-gradient(circle, var(--orange) 2px, transparent 2.5px) 0 50% / 12px 4px repeat-x; }
+.lede { font-size: 1.3rem; max-width: 46rem; color: var(--ink); }
+
+.card-grid { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(15.5rem, 1fr)); gap: 1rem; }
+.card { display: flex; flex-direction: column; gap: .3rem; height: 100%; padding: 1.25rem 1.25rem 1.35rem; background: var(--card); border: 2px solid var(--line); border-radius: 16px; text-decoration: none; color: var(--text); transition: border-color .15s, transform .15s; }
+.card:hover { border-color: var(--orange); color: var(--text); transform: translateY(-2px); }
+.card-num { width: 2.1rem; height: 2.1rem; border-radius: 50%; display: grid; place-items: center; border: 3px solid var(--ink); font-family: var(--heading); font-weight: 700; font-size: .9rem; color: var(--ink); margin-bottom: .35rem; }
+.card-grid li:nth-child(3n+2) .card-num { background: var(--orange); color: #fff; }
+.card-grid li:nth-child(3n) .card-num { background: var(--cyan); color: #fff; }
+.card-title { font-family: var(--heading); font-weight: 700; font-size: 1.15rem; color: var(--ink); }
+.card-summary { font-size: 1rem; line-height: 1.5; color: var(--muted); }
+.card-feature { background: var(--cyan); border-color: var(--cyan); max-width: 46rem; }
+.card-feature .card-title { color: #fff; font-size: 1.4rem; }
+.card-feature .card-summary { color: #fff; }
+.card-feature:hover { border-color: var(--ink); }
+.card-grid-small .card-title { font-size: 1.05rem; }
+
+.coming { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: .5rem; }
+.coming li { padding: .3rem .8rem; border: 2px dashed var(--line); border-radius: 999px; color: var(--muted); font-size: 1rem; }
+
+.book { display: grid; grid-template-columns: 12rem 1fr; gap: 2rem; align-items: center; padding-bottom: 3rem; }
+.book h2::after { display: none; }
+.button { display: inline-block; padding: .7rem 1.4rem; border-radius: 999px; background: var(--orange); color: #fff; font-family: var(--heading); font-weight: 700; text-decoration: none; }
+.button:hover { background: var(--orange-deep); color: #fff; }
+.fine { font-size: .95rem; color: var(--muted); }
+
+/* Footer: the cover's cyan band */
+.footer { background: var(--cyan); color: #fff; margin-top: 2rem; padding: 2rem 0; font-size: 1rem; text-align: center; }
+.footer p { margin: .35rem 0; }
+.footer a { color: #fff; }
+.footer a:hover { color: var(--ink); }
+.footer-lead { font-family: var(--heading); font-weight: 600; font-size: 1.1rem; }
+
+@media (max-width: 720px) {
+  body { font-size: 1.0625rem; }
+  .home-hero-inner { grid-template-columns: 1fr; padding-top: 2rem; }
+  .cover-sub { margin-bottom: .5rem; }
+  .book { grid-template-columns: 1fr; justify-items: start; }
+  .book img { width: 9rem; }
+  .pager { grid-template-columns: 1fr; }
+  .pager-link.next { grid-column: 1; }
+  .topnav { gap: 1rem; }
+}
+
+@media print {
+  .topbar, .pager, .footer, .hero-trail { display: none; }
+  .page-hero { background: none; color: var(--ink); padding: 0; }
+  .page-hero .wrap { max-width: var(--prose); }
+.page-hero h1 { color: var(--ink); }
+}
