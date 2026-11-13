@@ -43,7 +43,7 @@ band: Based on the work of Jim McCarthy and Michele McCarthy
 </section>
 
 <section class="home-section book">
-  <img src="{{ '/assets/images/book-cover.png' | relative_url }}" alt="Cover of The Core Protocols: A Guide to Greatness, by Richard Kasperowski" width="250" height="337" loading="lazy">
+  <img src="{{ '/assets/images/book-cover.jpg' | relative_url }}" alt="Cover of The Core Protocols: A Guide to Greatness, by Richard Kasperowski" width="600" height="897" loading="lazy">
   <div>
     <h2>The book</h2>
     <p><em>The Core Protocols: A Guide to Greatness</em> is Richard Kasperowski's guide to the Core Protocols.</p>

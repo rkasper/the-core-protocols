@@ -3,10 +3,10 @@
    bold geometric type, people joined by dotted lines). */
 
 :root {
-  --orange: #e89c17;
-  --orange-deep: #c97f06;
-  --cyan: #1bacda;
-  --cyan-deep: #0b7fa6;
+  --orange: #f9a618;
+  --orange-deep: #b86f00;
+  --cyan: #0bb9ec;
+  --cyan-deep: #00749a;
   --ink: #263238;
   --text: #33424a;
   --muted: #5f6f77;
@@ -53,9 +53,9 @@ h1, h2, h3, h4 { font-family: var(--heading); color: var(--ink); line-height: 1.
 .topnav a:hover { color: var(--orange); opacity: 1; }
 
 /* Page header band (every page but the home pages) */
-.page-hero { position: relative; background: var(--orange); color: #fff; padding: 3rem 0 4rem; overflow: hidden; }
+.page-hero { position: relative; background: var(--orange); color: var(--ink); padding: 3rem 0 4rem; overflow: hidden; }
 .page-hero .wrap { max-width: var(--prose); }
-.page-hero h1 { color: #fff; margin: 0; font-size: clamp(2.2rem, 5vw, 3.4rem); font-weight: 800; letter-spacing: -.01em; }
+.page-hero h1 { color: var(--ink); margin: 0; font-size: clamp(2.2rem, 5vw, 3.4rem); font-weight: 800; letter-spacing: -.01em; }
 .kicker { margin: 0 0 .4rem; font-family: var(--heading); font-weight: 600; text-transform: uppercase; letter-spacing: .12em; font-size: .85rem; color: var(--ink); }
 .hero-trail { position: absolute; left: 0; right: 0; bottom: 6px; width: 100%; height: 40px; }
 .hero-trail path { fill: none; stroke: var(--ink); stroke-width: 3; stroke-dasharray: 2 9; stroke-linecap: round; opacity: .55; }
@@ -87,8 +87,8 @@ h1, h2, h3, h4 { font-family: var(--heading); color: var(--ink); line-height: 1.
   font-family: var(--heading); font-weight: 700; font-size: 1rem;
   z-index: 1;
 }
-.prose > ol > li:nth-child(3n+2)::before { background: var(--orange); color: #fff; }
-.prose > ol > li:nth-child(3n)::before { background: var(--cyan); color: #fff; }
+.prose > ol > li:nth-child(3n+2)::before { background: var(--orange); color: var(--ink); }
+.prose > ol > li:nth-child(3n)::before { background: var(--cyan); color: var(--ink); }
 .prose > ol > li:not(:last-child)::after {
   content: ""; position: absolute; left: calc(1.25rem - 1.5px); top: 2.5rem; bottom: 0;
   border-left: 3px dotted var(--ink); opacity: .45;
@@ -110,9 +110,9 @@ h1, h2, h3, h4 { font-family: var(--heading); color: var(--ink); line-height: 1.
 .cover-title { margin: 0; color: #fff; font-weight: 800; text-transform: uppercase; font-size: clamp(2.6rem, 6.5vw, 5rem); line-height: .95; letter-spacing: -.01em; }
 .cover-title span { display: block; color: transparent; -webkit-text-stroke: 2px #fff; paint-order: stroke fill; }
 @supports not (-webkit-text-stroke: 2px #fff) { .cover-title span { color: #fff; } }
-.cover-sub { color: #fff; font-family: var(--heading); font-size: clamp(1.05rem, 2vw, 1.3rem); margin: 1.25rem 0 2.5rem; max-width: 26rem; }
+.cover-sub { color: var(--ink); font-family: var(--heading); font-size: clamp(1.05rem, 2vw, 1.3rem); margin: 1.25rem 0 2.5rem; max-width: 26rem; }
 .home-hero-art { display: block; align-self: end; width: 100%; }
-.cover-band { background: var(--cyan); color: #fff; font-family: var(--heading); font-weight: 600; text-align: center; padding: 1rem 0; }
+.cover-band { background: var(--cyan); color: var(--ink); font-family: var(--heading); font-weight: 600; text-align: center; padding: 1rem 0; }
 
 .home-section { padding: 2.5rem 0 .5rem; }
 .home-section h2 { font-size: 1.8rem; margin: 0 0 1.25rem; display: flex; align-items: center; gap: .75rem; }
@@ -123,30 +123,31 @@ h1, h2, h3, h4 { font-family: var(--heading); color: var(--ink); line-height: 1.
 .card { display: flex; flex-direction: column; gap: .3rem; height: 100%; padding: 1.25rem 1.25rem 1.35rem; background: var(--card); border: 2px solid var(--line); border-radius: 16px; text-decoration: none; color: var(--text); transition: border-color .15s, transform .15s; }
 .card:hover { border-color: var(--orange); color: var(--text); transform: translateY(-2px); }
 .card-num { width: 2.1rem; height: 2.1rem; border-radius: 50%; display: grid; place-items: center; border: 3px solid var(--ink); font-family: var(--heading); font-weight: 700; font-size: .9rem; color: var(--ink); margin-bottom: .35rem; }
-.card-grid li:nth-child(3n+2) .card-num { background: var(--orange); color: #fff; }
-.card-grid li:nth-child(3n) .card-num { background: var(--cyan); color: #fff; }
+.card-grid li:nth-child(3n+2) .card-num { background: var(--orange); color: var(--ink); }
+.card-grid li:nth-child(3n) .card-num { background: var(--cyan); color: var(--ink); }
 .card-title { font-family: var(--heading); font-weight: 700; font-size: 1.15rem; color: var(--ink); }
 .card-summary { font-size: 1rem; line-height: 1.5; color: var(--muted); }
 .card-feature { background: var(--cyan); border-color: var(--cyan); max-width: 46rem; }
-.card-feature .card-title { color: #fff; font-size: 1.4rem; }
-.card-feature .card-summary { color: #fff; }
+.card-feature .card-title { color: var(--ink); font-size: 1.4rem; }
+.card-feature .card-summary { color: var(--ink); }
 .card-feature:hover { border-color: var(--ink); }
 .card-grid-small .card-title { font-size: 1.05rem; }
 
 .coming { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: .5rem; }
 .coming li { padding: .3rem .8rem; border: 2px dashed var(--line); border-radius: 999px; color: var(--muted); font-size: 1rem; }
 
+.book img { border-radius: 4px; box-shadow: 0 12px 28px rgba(38,50,56,.25); }
 .book { display: grid; grid-template-columns: 12rem 1fr; gap: 2rem; align-items: center; padding-bottom: 3rem; }
 .book h2::after { display: none; }
-.button { display: inline-block; padding: .7rem 1.4rem; border-radius: 999px; background: var(--orange); color: #fff; font-family: var(--heading); font-weight: 700; text-decoration: none; }
-.button:hover { background: var(--orange-deep); color: #fff; }
+.button { display: inline-block; padding: .7rem 1.4rem; border-radius: 999px; background: var(--orange); color: var(--ink); font-family: var(--heading); font-weight: 700; text-decoration: none; }
+.button:hover { background: var(--ink); color: #fff; }
 .fine { font-size: .95rem; color: var(--muted); }
 
 /* Footer: the cover's cyan band */
-.footer { background: var(--cyan); color: #fff; margin-top: 2rem; padding: 2rem 0; font-size: 1rem; text-align: center; }
+.footer { background: var(--cyan); color: var(--ink); margin-top: 2rem; padding: 2rem 0; font-size: 1rem; text-align: center; }
 .footer p { margin: .35rem 0; }
-.footer a { color: #fff; }
-.footer a:hover { color: var(--ink); }
+.footer a { color: var(--ink); }
+.footer a:hover { color: #fff; }
 .footer-lead { font-family: var(--heading); font-weight: 600; font-size: 1.1rem; }
 
 @media (max-width: 720px) {
