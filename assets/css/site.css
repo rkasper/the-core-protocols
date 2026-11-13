@@ -108,11 +108,14 @@ h1, h2, h3, h4 { font-family: var(--heading); color: var(--ink); line-height: 1.
 /* Home: cover-style hero */
 .home-hero { background: var(--orange); overflow: hidden; }
 .home-hero-inner { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); align-items: center; gap: 2rem; padding-top: 3rem; }
-.cover-title { margin: 0; color: #fff; font-weight: 800; text-transform: uppercase; font-size: clamp(2.6rem, 6.5vw, 5rem); line-height: .95; letter-spacing: -.01em; }
+.home-hero-text { container-type: inline-size; min-width: 0; }
+/* Size the title so its longest word fills the column at most: Poppins 800
+   capitals average about 0.8em wide. */
+.cover-title { margin: 0; color: #fff; font-weight: 800; text-transform: uppercase; font-size: min(5rem, calc(100cqi / (var(--longest, 9) * 0.8))); line-height: .95; letter-spacing: -.01em; overflow-wrap: normal; }
 .cover-title span { display: block; color: transparent; -webkit-text-stroke: 2px #fff; paint-order: stroke fill; }
 @supports not (-webkit-text-stroke: 2px #fff) { .cover-title span { color: #fff; } }
 .cover-sub { color: var(--ink); font-family: var(--heading); font-size: clamp(1.05rem, 2vw, 1.3rem); margin: 1.25rem 0 2.5rem; max-width: 26rem; }
-.home-hero-art { display: block; align-self: end; width: 100%; }
+.home-hero-art { display: block; align-self: end; width: 100%; } /* transparent background: the hero's orange shows through */
 .cover-band { background: var(--cyan); color: var(--ink); font-family: var(--heading); font-weight: 600; text-align: center; padding: 1rem 0; }
 
 .home-section { padding: 2.5rem 0 .5rem; }

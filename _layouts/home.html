@@ -7,7 +7,11 @@
 {% include header.html %}
 <section class="home-hero">
   <div class="wrap home-hero-inner">
-    <div class="home-hero-text">
+    {% comment %} The title's size follows its longest word, so "FONDAMENTAUX" fits as well as "CORE". {% endcomment %}
+    {% assign words = page.title_top | append: " " | append: page.title_bottom | split: " " %}
+    {% assign longest = 4 %}
+    {% for word in words %}{% if word.size > longest %}{% assign longest = word.size %}{% endif %}{% endfor %}
+    <div class="home-hero-text" style="--longest: {{ longest }}">
       <h1 class="cover-title">{{ page.title_top }}<span>{{ page.title_bottom }}</span></h1>
       <p class="cover-sub">{{ page.subtitle }}</p>
     </div>
