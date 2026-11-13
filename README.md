@@ -30,4 +30,4 @@ The following Core Protocols are made up of both commitments and protocols.
 ## About this repository
 This repository is the source of [thecoreprotocols.org](https://thecoreprotocols.org). Each protocol is a Markdown file; GitHub Pages builds the website from them. To suggest a change, edit the Markdown and open a pull request. The site's design lives in `_layouts/`, `_includes/` and `assets/`, and the home page's protocol list and summaries are in `_data/nav.yml`.
 
-_This website is a free service provided by [Richard Kasperowski](https://kasperowski.com). I hope you enjoy it!_
+_Made with love by [Richard Kasperowski](https://kasperowski.com)._

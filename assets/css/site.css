@@ -136,11 +136,6 @@ h1, h2, h3, h4 { font-family: var(--heading); color: var(--ink); line-height: 1.
 .coming { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: .5rem; }
 .coming li { padding: .3rem .8rem; border: 2px dashed var(--line); border-radius: 999px; color: var(--muted); font-size: 1rem; }
 
-.book img { border-radius: 4px; box-shadow: 0 12px 28px rgba(38,50,56,.25); }
-.book { display: grid; grid-template-columns: 12rem 1fr; gap: 2rem; align-items: center; padding-bottom: 3rem; }
-.book h2::after { display: none; }
-.button { display: inline-block; padding: .7rem 1.4rem; border-radius: 999px; background: var(--orange); color: var(--ink); font-family: var(--heading); font-weight: 700; text-decoration: none; }
-.button:hover { background: var(--ink); color: #fff; }
 .fine { font-size: .95rem; color: var(--muted); }
 
 /* Footer: the cover's cyan band */
@@ -154,8 +149,6 @@ h1, h2, h3, h4 { font-family: var(--heading); color: var(--ink); line-height: 1.
   body { font-size: 1.0625rem; }
   .home-hero-inner { grid-template-columns: 1fr; padding-top: 2rem; }
   .cover-sub { margin-bottom: .5rem; }
-  .book { grid-template-columns: 1fr; justify-items: start; }
-  .book img { width: 9rem; }
   .pager { grid-template-columns: 1fr; }
   .pager-link.next { grid-column: 1; }
   .topnav { gap: 1rem; }
