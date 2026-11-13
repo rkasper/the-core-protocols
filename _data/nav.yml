@@ -5,7 +5,7 @@ en:
   commitments:
     - title: The Core Commitments
       url: /corecommitments.html
-      summary: The promises everyone makes to use the protocols well.
+      summary: The commitments everyone makes to use the protocols well.
   protocols:
     - title: Pass
       url: /protocols/pass.html
@@ -84,7 +84,7 @@ fr:
   commitments:
     - title: Les Engagements Fondamentaux
       url: /fr/engagements.html
-      summary: Les promesses que chacun fait pour bien utiliser les protocoles.
+      summary: Les engagements que chacun prend pour bien utiliser les protocoles.
   protocols:
     - title: Passer
       url: /fr/protocoles/passer.html
